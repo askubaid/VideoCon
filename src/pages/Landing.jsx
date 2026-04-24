@@ -16,6 +16,9 @@ const Landing = () => {
           <button
             onClick={() => navigate('/create')}
             style={{
+              background: '#ffffff',
+              border: '1px solid var(--border)',
+              color: 'var(--text-main)',
               padding: '2rem 1.5rem',
               height: 'auto',
               display: 'flex',
