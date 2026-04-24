@@ -7,19 +7,19 @@ const Landing = () => {
   return (
     <div className="container flex-center" style={{ minHeight: '100vh' }}>
       <div className="glass-card animate-fade-in" style={{ textAlign: 'center', maxWidth: '600px' }}>
-        <h1>e-Class</h1>
+        <h1>e-Class </h1>
         <p className="text-dim" style={{ fontSize: '1.2rem', marginBottom: '2.5rem' }}>
-          Simplified online classes for IST students
+          Institute of Space Technology Islamabad
         </p>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+        <div className="responsive-grid">
           <button
             onClick={() => navigate('/create')}
             style={{
               background: '#ffffff',
               border: '1px solid var(--border)',
               color: 'var(--text-main)',
-              padding: '2rem 1.5rem',
+              //padding: '2rem 1.5rem',
               height: 'auto',
               display: 'flex',
               flexDirection: 'column',
@@ -38,7 +38,7 @@ const Landing = () => {
               background: '#ffffff',
               border: '1px solid var(--border)',
               color: 'var(--text-main)',
-              padding: '2rem 1.5rem',
+              //padding: '2rem 1.5rem',
               height: 'auto',
               display: 'flex',
               flexDirection: 'column',

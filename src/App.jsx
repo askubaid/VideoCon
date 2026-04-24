@@ -15,7 +15,7 @@ function App() {
         <Route path="/room" element={<VideoRoom />} />
       </Routes>
       <footer>
-        <p>Developed by <strong>Ubaid Ur Rehman</strong>. Student @ Institute of Space Technology Islamabad.</p>
+        <p>Developed by <strong> U<sup>2</sup> <small> (Ubaid Ur Rehman)</small></strong>. Student @ Institute of Space Technology Islamabad.</p>
       </footer>
     </Router>
   );
