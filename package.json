@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://askubaid.github.io/VideoCon/",
+  "homepage": "https://askubaid.github.io/e-Class/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
