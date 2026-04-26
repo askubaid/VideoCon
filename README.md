@@ -83,10 +83,10 @@ A modern, high-fidelity video conferencing application designed for educational 
 
 ---
 
-## ⚠️ LiveKit Free Tier Limitations
+## ⚠️ Limitations
 
-Since this project utilizes the LiveKit Cloud "Build" (Free) tier for WebRTC infrastructure, please note the following hard limitations:
-- **Maximum 100 Concurrent Connections:** Across the entire project. For example, you can have 1 class of 100 students, or 4 simultaneous classes of 25 students.
+Since I am using LiveKit Cloud "Build" (Free) tier for this project, the following limitations apply:
+- **Maximum 100 Concurrent Connections:** Across the entire project.
 - **5,000 WebRTC Minutes per Month:** A 60-minute class with 10 students consumes 600 minutes.
 - **50 GB Monthly Data Transfer:** Depends heavily on camera usage and screen sharing.
 
@@ -95,4 +95,4 @@ If these limits are exceeded, new connections will be rejected until the monthly
 ---
 
 ## 📄 License
-Created for educational purposes at the Institute of Space Technology (IST). All rights reserved.
+Created for educational purposes at the Institute of Space Technology (IST).
